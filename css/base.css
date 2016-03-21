@@ -1,0 +1,52 @@
+/* ---------------
+   Import
+   --------------- */
+/* ---------------
+    Color
+   --------------- */
+/*
+$header_top_line :#f99300;
+$header_middle_line :#ffc239;
+$header_bottom_line :#ffe86a;
+$htext :#f99300;
+*/
+/* ---------------
+    Mixin
+   --------------- */
+/* ---------------
+   Stylesheet
+   --------------- */
+/* line 12, ../sass/base.scss */
+.content-wrapper {
+  text-align: center;
+}
+
+/* line 16, ../sass/base.scss */
+.twitter-link {
+  color: #55acee;
+}
+
+/* line 20, ../sass/base.scss */
+.twitter-link a {
+  text-decoration: none;
+}
+
+/* line 24, ../sass/base.scss */
+html {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 30, ../sass/base.scss */
+body {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 36, ../sass/base.scss */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}

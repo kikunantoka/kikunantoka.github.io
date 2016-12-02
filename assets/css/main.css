@@ -2485,7 +2485,7 @@
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 150%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.6);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2538,11 +2538,15 @@
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.6);
+		}
+
+		#footer .icons a:hover {
+			color: white!important;
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.6);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2565,6 +2569,11 @@
 
 			#footer .copyright li a {
 				color: inherit;
+				border-bottom: none;
+			}
+
+			#footer .copyright li a:hover {
+				color: white!important;
 			}
 
 /* Main */

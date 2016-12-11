@@ -6,6 +6,8 @@
 
 (function($) {
 
+	$('html,body').animate({ scrollTop: 0 }, 1);
+
 	var settings = {
 
 		// Parallax background effect?

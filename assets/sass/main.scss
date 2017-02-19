@@ -903,11 +903,11 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../../images/bg.jpg');
+		background-image:		url('images/overlay.png'),			url('../../images/bg.svg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
-		background-size:		auto,								auto 100%;
-		color: _palette(accent2, fg);
+		background-size:		auto,								auto 120%;
+		color: _palette(accent2, fg-dark);
 		height: 100%;
 		left: 0;
 		padding: ($size-header-pad * 2) $size-header-pad;
@@ -954,12 +954,16 @@
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
 			a {
-				color: _palette(accent2, fg-light);
+				color: _palette(accent2, fg-dark);
+
+				&:hover {
+					color: _palette(accent2, fg-bold)!important;
+				}
 			}
 		}
 
 		.copyright {
-			color: _palette(accent2, fg-light);
+			color: _palette(accent2, fg-dark);
 			font-size: 0.8em;
 			list-style: none;
 			margin: (_size(element-margin) * 0.5) 0 0 0;
@@ -980,6 +984,11 @@
 
 				a {
 					color: inherit;
+					border-bottom: none;
+
+					&:hover {
+						color: _palette(accent2, fg-bold)!important;
+					}
 				}
 			}
 		}
@@ -1293,7 +1302,7 @@
 			#footer {
 				background-attachment:	scroll;
 				background-color:		_palette(accent2, bg);
-				background-image:		url('images/overlay.png'),		url('../../images/bg.jpg');
+				background-image:		url('images/overlay.png'),		url('../../images/bg.svg');
 				background-position:	top left,						bottom center;
 				background-repeat:		repeat,							no-repeat;
 				background-size:		auto,							cover;

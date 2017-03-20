@@ -1320,6 +1320,8 @@ pre {
 /* Section/Article */
 section.special, article.special {
   text-align: center; }
+section a, article a {
+  margin-right: 20px; }
 
 header p {
   color: #b2b2b2;

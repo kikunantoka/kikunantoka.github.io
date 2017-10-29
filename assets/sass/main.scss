@@ -456,7 +456,6 @@
 
 		&:before {
 			@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
-			background: url('images/overlay.png');
 			border-radius: _size(border-radius);
 			content: '';
 			display: block;
@@ -466,6 +465,7 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
+			box-shadow: 0 0 5px #666;
 		}
 
 		&.thumb {
